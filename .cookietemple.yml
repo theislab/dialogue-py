@@ -1,0 +1,19 @@
+cookietemple_version: '1.4.0 # <<COOKIETEMPLE_NO_BUMP>>'
+domain: cli
+language: python
+project_slug: dialogue-py
+project_slug_no_hyphen: dialogue_py
+template_version: '2.0.2 # <<COOKIETEMPLE_NO_BUMP>>'
+template_handle: cli-python
+github_username: theislab
+creator_github_username: zethson
+is_github_repo: true
+is_repo_private: false
+is_github_orga: true
+github_orga: theislab
+full_name: Lukas Heumos
+email: lukas.heumos@posteo.net
+project_name: dialogue-py
+project_short_description: Python adaptation of DIALOGUE
+version: 0.1.0
+license: Apache2.0
