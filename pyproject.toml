@@ -12,7 +12,6 @@ packages = [
     { include = "dialogue_py" },
 ]
 classifiers = [
-    "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
@@ -20,10 +19,11 @@ classifiers = [
 
 
 [tool.poetry.dependencies]
-python = "^3.7.0"
+python = "^3.8.0"
 click = ">=8.0.0"
 rich = ">=10.3.0"
 PyYAML = ">=5.4.1"
+anndata = "^0.7.8"
 
 [tool.poetry.dev-dependencies]
 pytest = ">=6.2.3"

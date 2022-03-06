@@ -17,14 +17,12 @@ except ImportError:
     sys.exit(1)
 
 package = "dialogue_py"
-python_versions = ["3.8", "3.9"]
+python_versions = ["3.8"]
 nox.options.sessions = (
     "pre-commit",
     "safety",
     "mypy",
     "tests",
-    "xdoctest",
-    "docs-build",
 )
 
 
